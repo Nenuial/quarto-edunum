@@ -1,0 +1,33 @@
+/*-- scss:defaults --*/
+
+$presentation-font-size-root: 28px;
+
+$font-family-sans-serif: "Fira Sans", Palatino, serif !default;
+$body-color: #5d697c !default;
+$link-color: #b2c2dc !default;
+$input-panel-bg: rgba(233, 236, 239, 0.2) !default;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,400;1,200;1,400&display=swap');
+
+
+
+#title-slide h1 {
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  border-bottom: 2px solid $link-color;
+}
+
+.footer {
+  color: $body-color !important;
+}
+
+.slide h1,
+.slide h2 {
+  border-bottom: 2px solid $link-color;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+

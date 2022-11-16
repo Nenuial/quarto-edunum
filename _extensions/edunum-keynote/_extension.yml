@@ -1,0 +1,14 @@
+title: Edunum Theme 
+author: Pascal Burkhard
+version: 1.0.0
+contributes:
+  formats:
+    revealjs:
+      slide-number: true
+      menu: false
+      progress: false
+      theme: [default, edunum.scss]
+      css: theme.css
+      logo: banner-lycees.png
+      footer: |
+              Expert Éducation Numérique -- Pascal Burkhard
