@@ -1,4 +1,4 @@
-title: FSSE default document
+title: Edunum default document
 author: Pascal Burkhard
 version: 1.0.0
 contributes:
@@ -10,7 +10,6 @@ contributes:
         - before-body.tex
       include-in-header: 
         - header-setup.tex
-      logo: logo_fsse.png
       logowidth: 2cm
       banner: banner_fsse.jpg
       papersize: a4

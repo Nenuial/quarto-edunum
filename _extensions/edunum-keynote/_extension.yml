@@ -1,12 +1,14 @@
 title: Edunum Theme 
 author: Pascal Burkhard
-version: 1.0.0
+version: 1.0.1
 contributes:
   formats:
     revealjs:
       slide-number: true
       menu: false
       progress: false
+      date-format: long
+      lang: fr-CH
       theme: [default, edunum.scss]
       css: theme.css
       logo: banner-lycees.png
