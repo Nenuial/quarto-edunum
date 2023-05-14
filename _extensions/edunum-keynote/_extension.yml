@@ -10,7 +10,7 @@ contributes:
       date-format: long
       lang: fr-CH
       theme: [default, edunum.scss]
+      include-after-body: theme.html
       css: theme.css
       logo: banner-lycees.png
-      footer: |
-              Expert Éducation Numérique -- Pascal Burkhard
+      footer: ""
