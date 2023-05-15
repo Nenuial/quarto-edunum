@@ -271,7 +271,20 @@ html.print-pdf .quarto-dark {
     content: $right-arrow;
     color: mix($accent, white, 60%);
     display: inline-block;
-    width: 1em;
+    width: 1.5em;
+    margin-left: -2em;
+    margin-right: 0.5em;
+  }
+}
+
+.reveal ul ul ul {
+  list-style: none;
+
+  li:before {
+    content: $right-arrow;
+    color: mix($accent, white, 60%);
+    display: inline-block;
+    width: 1.5em;
     margin-left: -2em;
     margin-right: 0.5em;
   }
