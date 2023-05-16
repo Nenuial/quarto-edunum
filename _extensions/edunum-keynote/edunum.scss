@@ -15,6 +15,9 @@ $link-color: #3647a3 !default;
 $headings-font-weight: 400 !default;
 $presentation-font-size-root: 35px !default;
 $presentation-heading-color: #4c6c77 !default;
+$presentation-h1-font-size: 2em;
+$presentation-h2-font-size: 1.4em;
+$presentation-h3-font-size: 0.95em;
 $input-panel-bg: rgba(233, 236, 239, 0.2) !default;
 
 // Custom colours and variables
@@ -217,14 +220,12 @@ html.print-pdf .quarto-dark {
 
 .reveal h2 {
   font-weight: 450;
-  font-size: 1.4em;
 }
 
 .reveal h3 {
   color: $accent;
   font-style: italic;
   font-weight: 350;
-  font-size: 0.95em;
 }
 
 .reveal h4 {
