@@ -8,3 +8,6 @@
 /swiss.lco
 /*.pdf
 /template*
+.Rdata
+.httr-oauth
+.DS_Store
