@@ -59,6 +59,11 @@ html.print-pdf .quarto-dark {
   background-color: $body-bg;
 }
 
+html.print-pdf .slides {
+  border-left: 0px;
+  border-top: 0px;
+}
+
 .slides {
   background-color: $body-bg;
   border-style: solid;
@@ -130,11 +135,9 @@ html.print-pdf .quarto-dark {
 
 .footer {
   color: $body-color !important;
-  bottom: -35px !important;
 }
 
 .slide-logo {
-    bottom: -35px !important;
     right: 0px !important;
     max-height: 1.5rem !important;
     height: 50px !important;
@@ -143,7 +146,6 @@ html.print-pdf .quarto-dark {
 }
 
 .slide-number {
-    bottom: -35px !important;
     z-index: 2;
 }
 
